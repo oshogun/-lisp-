@@ -1,0 +1,15 @@
+    (defvar a)
+    (defvar b)
+    (defun power(x y)
+        (expt x y)
+    )
+
+    (defun main()
+        (write-line "digite x")
+        (setq a (read))
+        (write-line "digite y")
+        (setq b (read))
+        (write-line (write-to-string(power a b)))
+    )
+
+    (main)
